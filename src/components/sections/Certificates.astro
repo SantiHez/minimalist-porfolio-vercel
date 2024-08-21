@@ -1,0 +1,85 @@
+---
+import Section from '@/components/Section.astro'
+
+import Meta from '@/icons/Meta.astro'
+
+import { certificates } from '@cv'
+---
+
+<Section title="Certificados">
+
+    <!-- {certificates.map(({ name,date,issuer,url }) => {
+        return (
+        <div>
+            <h3>{name}</h3>
+            <h4>{date}</h4>
+            <Meta /><span>{issuer}</span>
+            <br/>
+            <a href={url} target="_blank" rel="noopener noreferrer">Ver certificado</a>
+        </div>
+        )
+    })
+    } -->
+
+<ul>
+    
+      {certificates.map(({ name,date,issuer,url }) => {
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3><a href={url} target="_blank" rel="noopener noreferrer" title="Certificado en Coursera">{name}</a></h3>
+                </div>
+
+                <time>{date}</time>
+              </header>
+
+              <footer>
+                <p><Meta /> {issuer}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+  
+    article h3 {
+      font-weight: 500;
+      color: #111;
+    }
+
+    article h3 a{
+      font-weight: 500;
+      color: #111;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 4px;
+    }
+  
+    time {
+      color: #555;
+      font-size: 0.85rem;
+      min-width: 102px;
+    }
+  
+    @media (width <= 700px) {
+      time {
+        text-align: right;
+      }
+    }
+  </style>

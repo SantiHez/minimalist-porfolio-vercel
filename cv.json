@@ -1,0 +1,212 @@
+{
+  "basics": {
+    "name": "Santiago Hernandez Espejo",
+    "label": "Ingeniero de Datos y Software",
+    "image": "/public/pic.webp",
+    "email": "santiago224z90@gmail.com",
+    "phone": "+57 3208931178",
+    "url": "prontoo",
+    "summary": "Ingeniero de datos y software con experiencia en la empresa \"Auna\". Dominio de lenguajes de programación como Python,JavaScript, Java, en frameworks y bases de datos para diseñar, desarrollar e implementar soluciones. Experto en aprendizaje autónomo. Comprometido con la calidad y la mejora continua.",
+"location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Medellín",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "SantiHez",
+        "url": "https://github.com/SantiHez"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Santiago Hernandez",
+        "url": "https://www.linkedin.com/in/santiago-hernandez-e/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Auna",
+      "position": "Practicante de ingeniería de datos y software",
+      "startDate": "2023-08-01",
+      "endDate": "2024-01-31",
+      "summary": "Description…",
+      "highlights": [
+        "Mantenimiento de la base de datos y registros.",
+        "Colaboración en la identificación y resolución de problemas técnicos.",
+        "Realización de cálculos y análisis para optimizar procesos.",
+        "Análisis de procesos y redacción de informes con los hallazgos.",
+        "Propuesta de soluciones técnicas en todas las etapas del proyecto.",
+        "Desarrollo y pruebas de prototipos de equipos y sistemas.",
+        "Gestión de documentación y archivos"
+      ],
+      "url": "https://www.lasamericas.com.co/es-es/"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cesde",
+      "url": "",
+      "area": "Técnico Laboral como Asistente en Desarrollo de Software",
+      "studyType": "Tecnico",
+      "startDate": "2023-02",
+      "endDate": "2024-06",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad de San Buenaventura",
+      "url": "",
+      "area": "Ingenieria de datos y software",
+      "studyType": "Pregrado",
+      "startDate": "2020-02",
+      "endDate": "2024-06",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Databases for Back-End Development",
+      "date": "2023-07-22",
+      "issuer": "Meta",
+      "url": "https://coursera.org/share/2bb6534fd8963b5475fd481de1aaaff0"
+    },
+    {
+      "name": "Version Control",
+      "date": "2023-06-20",
+      "issuer": "Meta",
+      "url": "https://coursera.org/share/f09231de3c52ddf55e1f9b49ca17b975"
+    },
+    {
+      "name": "Programming in Python",
+      "date": "2023-03-20",
+      "issuer": "Meta",
+      "url": "https://coursera.org/share/f366c63133126ab291ec6da6e6733119"
+    },
+    {
+      "name": "Introduction to Back-End Development",
+      "date": "2023-02-25",
+      "issuer": "Meta",
+      "url": "https://coursera.org/share/301154d9873516374296ed3bd75d2944"
+    }
+
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+    "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Github",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "b1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Oiko Mer",
+      "startDate": "2023-05-21",
+      "endDate": "2023-09-16",
+      "isActive": false,
+      "description": "El proyecto de grado “Oiko Mer” consiste en una página web conectada a una base de datos de sqlite, de diferentes cadenas de supermercado, donde muestra los valores y sobresale el supermercado que cuenta con el producto de menor valor, aparte realiza una gráfica donde se ven los diferentes precios, este proyecto fue construido en Python con los frameworks Django y Chart.js",
+      "highlights": [],
+      "github": "https://github.com/SantiHez/Oiko-Mer"
+    }
+  ]
+}
