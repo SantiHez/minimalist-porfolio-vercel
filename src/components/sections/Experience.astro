@@ -3,12 +3,12 @@ import Section from "@/components/Section.astro"
 
 import { work } from "@cv";
 ---
-<Section title="Experience">
+<Section title="Experiencia">
     
     <ul>
         {
           work.map(
-            ({ name, startDate, endDate, position, summary, highlights, url }) => {
+            ({ name, startDate, endDate, position, highlights, url }) => {
               const startYear = new Date(startDate).getFullYear()
               const endYear =
                 endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -42,7 +42,10 @@ import { work } from "@cv";
                     </header>
     
                     <footer>
-                      <p>{summary}</p>
+                      <br>
+                        {highlights.map((highlight) => (
+                          <p>{highlight}</p>
+                        ))}
                     </footer>
                   </article>
                 </li>
